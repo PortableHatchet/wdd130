@@ -1,0 +1,41 @@
+body {
+    background-color: seagreen;
+    margin: 0;
+}
+h1 {
+    background-color: lightsalmon;
+    margin: 20px;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 20px;
+    color: black;
+}
+p {
+    background-color: lightcoral;
+    margin: 20px;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 20px;
+    color: black;
+} 
+#smaller{
+    font-size: 1.3em;
+    background-color: steelblue;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+.highlight{
+    background-color: tan;
+}
+h2 {
+    background-color: #f6bd60;
+    margin: 20px;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 20px;
+
+}
+.purple{
+    background-color: #b392ac;
+}
