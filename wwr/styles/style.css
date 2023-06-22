@@ -4,11 +4,13 @@
 }
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
+  width: 100%;
+  
 }
 nav a {
   text-align: center;
-  color: #ffa62b;
+  color: white;
   text-decoration: none;
   padding: 35px;
 }
@@ -196,6 +198,39 @@ main section img {
 .rapids-card {
   grid-column: 8/10;
   grid-row: 2/3;
+}
+#blog {
+  margin: auto;
+  width: 50%;
+  border: 3px solid #FFA62B;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 35px;
+ }
+ #blog img {
+  width: 100%;
+  height: auto;
+}
+#blog-nav{
+  top: 25px;
+}
+#blog-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+#blog-nav ul li {
+  margin: 0 10px;
+  border: 1px solid #FFA62B;
+  border-radius: 4px;
+}
+#blog-nav ul li:hover a {
+  color: #FFA62B;
+}
+#blog-nav ul li:hover {
+  
+  border-color: #FFA62B; 
 }
 @media screen and (max-width: 900px) {
   #hero,
