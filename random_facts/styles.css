@@ -1,39 +1,71 @@
 .logo{
-    height: 150px;
-    width: 200px;
+    height: 125px;
+    width: 175px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
 }
-.logo-link{
-    grid-column: 1/2;
-    grid-row: 1;
+
+.overlay-container {
+    position: relative;
+    width: 175px;
+    height: 125px;
+   
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    border-radius: 15px;
+    background-color: #396e94;
+  }
+
+.overlay-container:hover .overlay {
+    opacity: 1;  
 }
+
+.overlay-text{
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
 body{
     font-family: Monaco;
 }
 .navbar{
     width: 100%;
-    
 }
 .navbar a {
     display: flex;
   align-items: center;
   justify-content: center;
-  padding: 25px;
+  padding: 5px;
+  border-radius: 5px;
+  border: solid #eee;
+  background-color: #ccc;
 }
 
 .links{
     display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-row: 2;
   gap: 1px;
 }
 
 nav a:hover {
     background-color: #a42212;
-    color: #a42212;
+    color: white;
   }
 .grid-container {
     display: grid;
-    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     gap: 10px; /* Adjust the gap between items as needed */
   }
 
@@ -43,6 +75,8 @@ nav a:hover {
     border: 3px solid #396e94;
     border-radius: 10px;
     padding: 10px;
+    margin-top: 35px;
+    margin-bottom: 35px;
 
 }
 
