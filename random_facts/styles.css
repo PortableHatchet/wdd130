@@ -70,22 +70,24 @@ nav a:hover {
   }
 
 #about {
+    margin-top: 35px;
+
     margin-left: 25%;
     margin-right: 25%;
     border: 3px solid #396e94;
     border-radius: 10px;
     padding: 10px;
-    margin-top: 35px;
-    margin-bottom: 35px;
-
-}
-
-#daily{
-    margin-left: 10%;
-    margin-right: 10%;
     
 }
-#daily-title{
+
+.fact{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    
+}
+.title{
     border: 8px solid #396e94;
     border-radius: 10px;
     padding: 10px;
@@ -96,14 +98,45 @@ nav a:hover {
     border-bottom: 4px;
     
 }
-#daily-title h1{
+.title h3{
     color: white;
 }
-#daily-fact{
+.fact-output{
     border: 8px solid #396e94;
     border-radius: 10px;
     padding: 10px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     background-color: #e7c24f;
+}
+
+#random-title{
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+#generate-button{
+    margin-top: 15px;
+    margin-bottom: 100px;
+    background-color: #396e94;
+    color: white;
+    display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  
+}
+#generate-button:hover{
+    background-color: #2d5d7b;
+}
+#generate-button:active {
+    background-color: #396e94;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
